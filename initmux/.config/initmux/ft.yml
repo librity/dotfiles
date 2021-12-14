@@ -1,0 +1,26 @@
+---
+name: ft
+root: "~/code" # Do not put the last slash ('/')
+
+windows:
+  - tests: default
+  - current: default
+  - aux1: default
+  - aux2: default
+  - aux3: default
+  - aux4: default
+  - diary: diary
+
+models:
+  default:
+    layout: even-horizontal
+    dir: ft
+    panes: 1
+  diary:
+    layout: even-horizontal
+    dir: ft/dev_diaries
+    panes: 1
+  libft:
+    layout: even-horizontal
+    dir: ft/public_libft
+    panes: 1

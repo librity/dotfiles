@@ -1,0 +1,17 @@
+---
+name: music
+root: "~" # Do not put the last slash ('/')
+
+windows:
+  - sptd: sptd
+  - spt: spt
+
+models:
+  sptd:
+    layout: even-horizontal
+    panes:
+      - spotifyd --no-daemon
+  spt:
+    layout: even-horizontal
+    panes:
+      - sleep 3 && spt

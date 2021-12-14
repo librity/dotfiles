@@ -1,0 +1,64 @@
+---
+name: rotm
+root: "~/code" # Do not put the last slash ('/')
+
+windows:
+  - ft1: ft
+  - ft2: ft
+  - ft3: ft
+
+  - c1: c_and_cpp
+  - c2: c_and_cpp
+
+  - go1: go
+  - go2: go
+
+  # - elixir1: elixir
+  # - elixir2: elixir
+
+  # - ruby1: ruby
+  # - ruby2: ruby
+
+  # - js1: js
+  # - js2: js
+
+models:
+  default:
+    layout: even-horizontal
+    dir: <WindowName>
+    panes: 1
+
+  ft:
+    layout: even-horizontal
+    dir: ft
+    panes: 1
+
+  nc:
+    layout: even-horizontal
+    dir: nc
+    panes: 1
+
+  c_and_cpp:
+    layout: even-horizontal
+    dir: c_and_cpp
+    panes: 1
+
+  go:
+    layout: even-horizontal
+    dir: go/src/github.com/librity
+    panes: 1
+
+  elixir:
+    layout: even-horizontal
+    dir: elixir
+    panes: 1
+
+  js:
+    layout: even-horizontal
+    dir: js
+    panes: 1
+
+  ruby:
+    layout: even-horizontal
+    dir: ruby
+    panes: 1

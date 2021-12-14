@@ -1,0 +1,32 @@
+---
+name: work
+root: "~/code/bio" # Do not put the last slash ('/')
+
+windows:
+  - root: root
+  - n2: n2
+  - n3_a: n3
+  - n3_b: n3
+  - n3_c: n3
+  - biosystem: default
+  - workout: default
+  - fitness_classes: default
+  - bio-portal: default
+
+models:
+  root:
+    layout: even-horizontal
+    dir: .
+    panes: 1
+  n2:
+    layout: even-horizontal
+    dir: ../luis_automata
+    panes: 1
+  n3:
+    layout: even-horizontal
+    dir: .
+    panes: 1
+  default:
+    layout: even-horizontal
+    dir: <WindowName>
+    panes: 1

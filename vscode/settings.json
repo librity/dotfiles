@@ -1,0 +1,241 @@
+{
+  /*****************************************************************************
+   * Native
+   ****************************************************************************/
+
+  "window.newWindowDimensions": "maximized",
+
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Omni",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "editor.fontFamily": "'Fira Code Retina'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.snippetSuggestions": "top",
+  "editor.parameterHints.enabled": false,
+  "editor.formatOnSave": false,
+  "editor.renderWhitespace": "all",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  "terminal.integrated.fontSize": 16,
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "extensions.ignoreRecommendations": true,
+
+  "git.enableSmartCommit": true,
+
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "erb": "html"
+  },
+
+  "files.autoSave": "off",
+
+  /*****************************************************************************
+   * Files
+   ****************************************************************************/
+
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /*****************************************************************************
+   * Javascript
+   ****************************************************************************/
+
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /*****************************************************************************
+   * Typescript
+   ****************************************************************************/
+
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /*****************************************************************************
+   * Ruby
+   ****************************************************************************/
+
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop"
+  },
+  "ruby.useBundler": true,
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true
+    },
+    "reek": {
+      "useBundler": true
+    }
+  },
+  "ruby.format": "rubocop",
+
+  /*****************************************************************************
+   * Go
+   ****************************************************************************/
+
+  "go.gopath": "~/code/go",
+  "go.toolsManagement.autoUpdate": true,
+
+  /*****************************************************************************
+   * Elixir
+   ****************************************************************************/
+
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+
+  "elixirLS.dialyzerEnabled": false,
+  "elixirLS.suggestSpecs": false,
+
+  "elixir.credo.ignoreWarningMessages": true,
+  "elixir.credo.strictMode": true,
+  "elixir.credo.executePath": "/home/lgeniole/.asdf/shims",
+  "elixir.credo.lintEverything": true,
+
+  /*****************************************************************************
+   * Clojure
+   ****************************************************************************/
+
+  "[clojure]": {
+    "editor.defaultFormatter": "betterthantomorrow.calva"
+  },
+
+  /*****************************************************************************
+   * Extensions
+   ****************************************************************************/
+
+  "42header.email": "lpaulo-m@student.42sp.org.br",
+  "42header.username": "lpaulo-m",
+
+  "evenBetterToml.formatter.indentTables": true,
+  "evenBetterToml.formatter.indentString": "  ",
+  "evenBetterToml.formatter.alignEntries": true,
+  "evenBetterToml.formatter.compactArrays": false,
+  "evenBetterToml.formatter.reorderKeys": true,
+
+  "material-icon-theme.folders.associations": {
+    "objects": "packages",
+    "snippets": "mock",
+    "testers": "tools",
+    "gallery": "images",
+    "scenes": "animation"
+  },
+
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.associations": {
+    "*.gohtml": "html"
+  },
+  "cSpell.enableFiletypes": [
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!css",
+    "!git-commit",
+    "!go",
+    "!graphql",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!javascript",
+    "!javascriptreact",
+    "!json",
+    "!jsonc",
+    "!less",
+    "!php",
+    "!pug",
+    "!python",
+    "!rust",
+    "!scala",
+    "!scss",
+    "!typescript",
+    "!typescriptreact",
+    "!yaml",
+    "!yml"
+  ],
+  "cSpell.userWords": [
+    "asdf",
+    "Automagically",
+    "backdoors",
+    "Cardano",
+    "coverprofile",
+    "Diffie",
+    "distros",
+    "godoc",
+    "Godocs",
+    "lior",
+    "Mutex",
+    "nomadcoin",
+    "reshim",
+    "struct",
+    "unbuffered",
+    "UTXO",
+    "Websockets"
+  ],
+  "window.zoomLevel": -0.5,
+  "git.confirmSync": false
+}
