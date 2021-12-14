@@ -2,7 +2,7 @@
 
 > VIMs not allowed.
 
-Inspired by [@AdrianWR](https://github.com/AdrianWR/.dotfiles) repo.
+Inspired by [@AdrianWR](https://github.com/AdrianWR/.dotfiles)'s repo.
 
 ## Installation
 
