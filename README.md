@@ -1,8 +1,8 @@
 # My Dotfiles
 
-<p align="center" >
+<p align="center" color="red" >
 
-## WARNING:
+WARNING:
 
 </p>
 <p align="center" >
