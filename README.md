@@ -2,21 +2,21 @@
 
 <p align="center" color="red" >
 
-WARNING:
+## WARNING:
 
 </p>
 <p align="center" >
 
-## Vim heretics look no further.
+### Vim heretics look no further.
 
-## Not for Vim heretics.
+#### Not for Vim heretics.
 
-## Vimers not allowed.
+##### Vimers not allowed.
 
 </p>
 <p align="center" >
 
-## YOU HAVE BEEN WARNED.
+###### YOU HAVE BEEN WARNED.
 
 </p>
 
