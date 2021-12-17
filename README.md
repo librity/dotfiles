@@ -1,24 +1,14 @@
 # My Dotfiles
 
-<p align="center" color="red" >
+### ⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️
 
-## WARNING:
+#### 🚨 VIM HERETICS LOOK NO FURTHER 🚨
 
-</p>
-<p align="center" >
+#### 🚫 NOT FOR VIM HERETICS 🚫
 
-### Vim heretics look no further.
+#### ⛔ VIMERS NOT ALLOWED ⛔
 
-#### Not for Vim heretics.
-
-##### Vimers not allowed.
-
-</p>
-<p align="center" >
-
-###### YOU HAVE BEEN WARNED.
-
-</p>
+### ☢️☣️⚡ YOU HAVE BEEN WARNED ⚡☣️☢️
 
 </br>
 </br>
@@ -32,32 +22,25 @@
 </br>
 </br>
 </br>
+</br>
+</br>
+
+### St. IGNUcius' blessings upon you.
 
 <p align="center">
   <img src=".github/st_ignucius.jpg" />
 </p>
-<p align="center" >
 
-## St. IGNUcius' blessings upon you.
-
-</p>
+### Climax of the Vim Heresy.
 
 <p align="center">
   <img src=".github/horus_heresy.jpg" />
 </p>
-<p align="center" >
 
-## Climax of the Vim Heresy.
-
-</p>
+### Where Vimers goes (not a fun place).
 
 <p align="center">
   <img src=".github/vim_hell.jpeg" />
-</p>
-<p align="center" >
-
-## Where Vimers goes (not a fun place).
-
 </p>
 
 ## About
