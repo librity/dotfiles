@@ -1,14 +1,14 @@
 {
   /*****************************************************************************
-   * Native
+   * Vanilla
    ****************************************************************************/
 
   "window.newWindowDimensions": "maximized",
 
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Omni",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.labelFormat": "short",
+  "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
 
   "editor.fontFamily": "'Fira Code Retina'",
@@ -23,6 +23,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
+  "editor.tabSize": 2,
 
   "terminal.integrated.fontSize": 16,
 
@@ -33,6 +34,7 @@
   "extensions.ignoreRecommendations": true,
 
   "git.enableSmartCommit": true,
+  "git.confirmSync": false,
 
   "emmet.triggerExpansionOnTab": true,
   "emmet.showSuggestionsAsSnippets": true,
@@ -46,9 +48,15 @@
   },
 
   "files.autoSave": "off",
+  "files.exclude": {
+    "**/.DS_Store": true
+  },
+  "files.associations": {
+    "*.gohtml": "html"
+  },
 
   /*****************************************************************************
-   * Files
+   * Formatters
    ****************************************************************************/
 
   "[yaml]": {
@@ -181,14 +189,45 @@
     "snippets": "mock",
     "testers": "tools",
     "gallery": "images",
-    "scenes": "animation"
+    "scenes": "animation",
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
   },
 
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  "files.associations": {
-    "*.gohtml": "html"
-  },
+
+  "cSpell.language": "en",
   "cSpell.enableFiletypes": [
     "!c",
     "!cpp",
@@ -236,6 +275,12 @@
     "UTXO",
     "Websockets"
   ],
-  "window.zoomLevel": -0.5,
-  "git.confirmSync": false
+
+  "zoombar.defaultZoom": 90,
+
+  /*****************************************************************************
+   * Zoom Level
+   ****************************************************************************/
+
+  "window.zoomLevel": -0.5778829311823857
 }
