@@ -37,7 +37,7 @@
   <img src=".github/horus_heresy.jpg" />
 </p>
 
-### Where Vimers goes (not a fun place).
+### Where Vimers go (not a fun place).
 
 <p align="center">
   <img src=".github/vim_hell.jpeg" />
