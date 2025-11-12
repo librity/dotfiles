@@ -1,48 +1,5 @@
 # My Dotfiles
 
-### ⚠️⚠️⚠️ WARNING ⚠️⚠️⚠️
-
-#### 🚨 VIM HERETICS LOOK NO FURTHER 🚨
-
-#### 🚫 NOT FOR VIM HERETICS 🚫
-
-#### ⛔ VIMERS NOT ALLOWED ⛔
-
-### ☢️☣️⚡ YOU HAVE BEEN WARNED ⚡☣️☢️
-
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-
-### St. IGNUcius' blessings upon you.
-
-<p align="center">
-  <img src=".github/st_ignucius.jpg" />
-</p>
-
-### Climax of the Vim Heresy.
-
-<p align="center">
-  <img src=".github/horus_heresy.jpg" />
-</p>
-
-### Where Vimers go (not a fun place).
-
-<p align="center">
-  <img src=".github/vim_hell.jpeg" />
-</p>
-
 ## About
 
 Inspired by [@AdrianWR](https://github.com/AdrianWR/.dotfiles)'s repo.

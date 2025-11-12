@@ -1,0 +1,80 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+startup_mode = "Maximized"
+# Fullscreen opacity doesn't work on Wayland
+# startup_mode = "Fullscreen"
+decorations = "None"
+level = "AlwaysOnTop"
+opacity = 0.8
+blur = true
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[font]
+size = 11
+
+[font.bold]
+family = "Iosevka"
+style = "Bold"
+
+[font.bold_italic]
+family = "Iosevka"
+style = "Bold Italic"
+
+[font.italic]
+family = "Iosevka"
+style = "Italic"
+
+[font.normal]
+family = "Iosevka"
+style = "Regular"
+
+[colors]
+transparent_background_colors = true
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "0x4d4d4d"
+blue = "0xcaa9fa"
+cyan = "0x9aedfe"
+green = "0x5af78e"
+magenta = "0xff92d0"
+red = "0xff6e67"
+white = "0xe6e6e6"
+yellow = "0xf4f99d"
+
+[colors.cursor]
+cursor = "0xE1E1E6"
+text = "0x41414D"
+
+[colors.dim]
+black = "0x14151b"
+blue = "0x4d5b86"
+cyan = "0x59dffc"
+green = "0x1ef956"
+magenta = "0xff46b0"
+red = "0xff2222"
+white = "0xe6e6d1"
+yellow = "0xebf85b"
+
+[colors.normal]
+black = "0x000000"
+blue = "0x988BC7"
+cyan = "0x78D1E1"
+green = "0x67E480"
+magenta = "0xFF79C6"
+red = "0xE96379"
+white = "0xbfbfbf"
+yellow = "0xE7DE79"
+
+[colors.primary]
+background = "0x191622"
+foreground = "0xE1E1E6"
+
+[colors.selection]
+background = "0x41414D"
+text = "0xE1E1E6"
